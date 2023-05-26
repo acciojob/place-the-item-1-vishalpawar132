@@ -1,12 +1,12 @@
 
-.container{
+.holder{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.container .item{
+.holder .item{
 	width: 30%;
 	heigth: 10%;
 	margin: 10px 10px;
