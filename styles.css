@@ -1,2 +1,15 @@
 
-/* Your CSS Code here. */
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.container .item{
+	width: 30%;
+	heigth: 10%;
+	margin: 10px 10px;
+	color: white;
+	background-color: purple;
+}
